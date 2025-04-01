@@ -1,0 +1,26 @@
+1) git log
+---------------------------
+This will give you a list of commits with hashes like:
+
+commit abcdef1234567890abcdef1234567890abcdef12 (HEAD -> master)
+Author: Your Name <your.email@example.com>
+Date:   Thu Apr 1 10:00:00 2025 -0400
+
+Take note of the commit hash you want to reset to. For example, abcdef1234567890abcdef1234567890abcdef12.
+
+Step 2: Perform the hard reset to that commit:
+
+
+2) git reset --hard <commit_hash>
+----------------------------------
+
+Step 3: Force push to the remote repository:
+
+
+3) git push --force
+--------------------
+
+Or, if you're working with a specific remote (e.g., origin) and branch (e.g., master):
+
+
+git push --force origin master
